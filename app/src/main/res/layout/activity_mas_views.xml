@@ -7,6 +7,22 @@
     android:background="#FFFFFF"
     tools:context="com.plumbaria.e_2_10_masviews.MasViewActivity">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/entrada"
+        android:hint="@string/entrada" />
+
+    <Button
+        android:text="@string/IDboton0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDboton0"
+        android:onClick="sePulsa0"
+        android:tag="0" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,4 +30,11 @@
         android:text=""
         android:onClick="sePulsa"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/salida"
+        android:textColor="#0000FF"
+        android:hint="@string/salida" />
 </LinearLayout>
